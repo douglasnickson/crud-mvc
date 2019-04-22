@@ -1,9 +1,8 @@
 package bean;
 
-public class Usuario {
+public class Usuario extends Administrador {
 
     private int id;
-    private String nome;
     private String email;
     private String senha;
 
@@ -13,14 +12,6 @@ public class Usuario {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getEmail() {

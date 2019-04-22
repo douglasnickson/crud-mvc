@@ -16,12 +16,12 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet>
-        <servlet-name>CadastroServlet</servlet-name>
-        <servlet-class>controller.UsuarioServlet</servlet-class>
+        <servlet-name>FrontControllerServlet</servlet-name>
+        <servlet-class>controller.FrontControllerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>CadastroServlet</servlet-name>
-        <url-pattern>/cadastro-usuario</url-pattern>
+        <servlet-name>FrontControllerServlet</servlet-name>
+        <url-pattern>/front-controller</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
